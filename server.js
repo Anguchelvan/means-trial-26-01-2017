@@ -19,7 +19,7 @@ mongodb://<dbuser>:<dbpassword>@ds131119.mlab.com:31119/angu_mongolab_test
 
 app.use('/',index);
 app.use('/api',tasks);
-app.listen(port,function(){
-
-	console.log("connected to the port" + port);
-})
+//app.listen(port,function(){
+//
+//	console.log("connected to the port" + port);
+//})
