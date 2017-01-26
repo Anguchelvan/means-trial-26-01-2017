@@ -15,7 +15,7 @@ var app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({encoded : false}));
 
-app.use(express.static(path.join(__dirname ,'client' )));
+app.use(express.static(path.join(__dirname ,'views' )));
 //mongodb://<dbuser>:<dbpassword>@ds131119.mlab.com:31119/angu_mongolab_test
 
 //app.use('/',index);
